@@ -1,3 +1,3 @@
 # Experimenting with Travis CI
 script:
- - sh -c 'cd statiflex && mvn clean install'
+ - sh -c 'cd statiflex && mvn clean test'
