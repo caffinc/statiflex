@@ -18,7 +18,7 @@ Call the `Statiflex.flex` method with the first parameter being the *class* whos
 ## Maven Dependency
 This project hasn't been uploaded to Maven Central yet. Give me a few days to figured out all the crazy stuff behind uploading it to Maven Central and it should be up.
 
-Meanwhile you can download the `jar` from the initial release [here](https://github.com/caffinc/statiflex/releases/download/1.0/statiflex-1.0.jar "Initial Release Jar"), add it to your project's `resources/jars` directory and use it in your project:
+Meanwhile you can download the `jar` from the latest release [here](https://github.com/caffinc/statiflex/releases/latest "Latest Release"), add it to your project's `resources/jars` directory and use it in your project:
 
     <dependency>
         <groupId>com.caffinc</groupId>
