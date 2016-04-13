@@ -6,12 +6,21 @@
 
     <groupId>com.caffinc</groupId>
     <artifactId>statiflex</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <packaging>jar</packaging>
 
     <name>statiflex</name>
     <description>Change static final values</description>
     <url>https://github.com/caffinc/statiflex</url>
+
+    <developers>
+        <developer>
+            <name>Caffinc</name>
+            <email>admin@caffinc.com</email>
+            <organization>Caffinc</organization>
+            <organizationUrl>http://www.caffinc.com</organizationUrl>
+        </developer>
+    </developers>
 
     <licenses>
         <license>
@@ -42,4 +51,32 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>attach-sources</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>attach-javadocs</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>
