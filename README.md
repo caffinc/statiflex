@@ -2,7 +2,6 @@
 ### Change static final values in Java
 
 
-
 ## Introduction
 Have you ever created any classes with `static final` fields in Java? And then later found it impossible to test because different tests need different values in the fields? Or do you want your tests to have a whole other set of values that are different from your production values?
 
