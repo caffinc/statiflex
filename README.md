@@ -16,16 +16,12 @@ Call the `Statiflex.flex` method with the first parameter being the *class* whos
     Statiflex.flex( DummyClass.class, "DUMMY_FIELD", "NEW VALUE" );
 
 ## Maven Dependency
-This project hasn't been uploaded to Maven Central yet. Give me a few days to figured out all the crazy stuff behind uploading it to Maven Central and it should be up.
-
-Meanwhile you can download the `jar` from the latest release [here](https://github.com/caffinc/statiflex/releases/latest "Latest Release"), add it to your project's `resources/jars` directory and use it in your project:
+Statiflex is available on Bintray and Maven Central:
 
     <dependency>
         <groupId>com.caffinc</groupId>
         <artifactId>statiflex</artifactId>
-        <version>1.0</version>
-        <scope>system</scope>
-        <systemPath>${project.basedir}/src/main/resources/jars/statiflex-1.0.jar</systemPath>
+        <version>1.0.3</version>
     </dependency>
 
 ## When does Statiflex fail?
