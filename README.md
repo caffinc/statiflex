@@ -40,7 +40,7 @@ Suppose you have a class `DummyClass`:
 
 Fields `DUMMY_FIELD` and `DUMMY_FIELD_2` are not optimized by the compiler, but `DUMMY_FIELD_3` is. When the compiler sees `DUMMY_FIELD_3` used in the code elsewhere, it replaces it with `"Test"`, so `Statiflex` will not be able to change the value of the field as the field isn't actually used in the code anymore.
 
-Fields `DUMMY_FIELD` is populated via an external function call, and `DUMMY_FIELD_2` is populated in the static field. Both these fields can be modified by calling:
+`DUMMY_FIELD` is populated via an external function call, and `DUMMY_FIELD_2` is populated in the static block. Both these fields can be modified by calling:
 
     Statiflex.flex( DummyClass.class, "DUMMY_FIELD", "Some other String" );
     Statiflex.flex( DummyClass.class, "DUMMY_FIELD_2", "Some other String" );
